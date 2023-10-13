@@ -1,0 +1,75 @@
+---
+title: "hw1"
+author: "Victoria DelaCruz"
+date: "2023-10-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Assignment Title: Introduction to Basic Data Analysis in R
+
+Introduction:
+
+Data analysis is a fundamental skill for any data scientist or analyst. R is a powerful programming language for statistical analysis and data visualization. In this assignment, we'll learn how to calculate the mean and median of a dataset in R.
+
+Example:
+
+Let's start with a sample dataset:
+
+R
+Copy code
+# Sample dataset
+data <- c(12, 25, 18, 32, 40, 15, 21, 27, 36, 29)
+We want to calculate the mean and median of this dataset. Here's how you can do it in R:
+```{r}
+data <- c(12, 25, 18, 32, 40, 15, 21, 27, 36, 29)
+```
+
+R
+Copy code
+# Calculate the mean
+mean_result <- mean(data)
+```{r}
+mean_result <- mean(data)
+```
+
+# Calculate the median
+median_result <- median(data)
+```{r}
+median_result <- median(data)
+```
+
+Now, it's your turn to practice. We have provided a dataset for you, and your task is to write the code to calculate the mean and median.
+
+Your Task:
+
+Create a new R script or RMarkdown document.
+
+Use the following dataset:
+
+R
+Copy code
+# Dataset for your assignment
+assignment_data <- c(14, 27, 32, 19, 25, 21, 30, 35, 42, 24)
+Calculate the mean of the assignment_data dataset and store it in a variable.
+
+Calculate the median of the assignment_data dataset and store it in a variable.
+
+Finally, print the mean and median results to the console.
+
+Your completed R script or RMarkdown document should include comments to explain each step of your code.
+
+Hints:
+
+Remember to use the mean() and median() functions in R to calculate the mean and median, respectively.
+
+You can print the results using the print() or cat() functions.
+
+Good luck with your assignment!
+
+
+
+
